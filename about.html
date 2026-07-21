@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn more about SMAA, our Ayurvedic roots, wellness mission, and the premium herbal experiences we create." />
+    <meta name="keywords" content="Ayurveda, About SMAA, herbal wellness, Ayurvedic herbs, wellness mission" />
+    <title>SMAA | About Us</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="loading-screen" id="loadingScreen">
+      <div class="spinner"></div>
+    </div>
+
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <div class="floating-actions" aria-label="Quick contact widgets">
+      <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="quick-action whatsapp" aria-label="Contact via WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="sms:+919876543210" class="quick-action message" aria-label="Send a message">
+        <i class="bi bi-chat-dots"></i>
+      </a>
+      <a href="mailto:hello@smaa.com" class="quick-action email" aria-label="Send an email">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+
+    <header class="hero-section" id="home" style="background-image: url('css/img/banner2.jpeg'); cover no-repeat center center; background-size: cover;">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="home">
+            <!-- <span class="brand-mark">S</span> -->
+             <img src="css/img/logo1.png" alt="SMAA Logo" class="brand-logo" width="80" height="50px" />
+            <span>SMAA</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <div class="row align-items-center min-vh-100 py-5">
+          <div class="col-lg-8" data-aos="fade-up">
+            <!-- <p class="eyebrow">Ancient wisdom for modern wellness</p>
+            <h1>Experience the Healing Power of Ayurveda</h1>
+            <p class="hero-subtitle">Discover premium herbal remedies and wellness rituals crafted with nature’s finest ingredients for balance, vitality, and inner peace.</p> -->
+            <div class="hero-buttons">
+              <a class="btn btn-primary" href="product.html">Explore Products</a>
+              <a class="btn btn-secondary" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-element leaf-one"></div>
+      <div class="floating-element leaf-two"></div>
+      <div class="floating-element leaf-three"></div>
+    </header>
+
+    <main>
+      <!-- <section class="section about-section" id="about">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="about-image-wrap">
+                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1000&q=80" alt="Ayurvedic herbs and wellness preparation" loading="lazy" />
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+              <p class="section-tag">About SMAA</p>
+              <h2 class="section-title">Elevating Ayurvedic Care with Purity and Purpose</h2>
+              <p class="section-text">SMAA is a premium Ayurvedic wellness house dedicated to crafting herbal formulas, wellness rituals, and mindful experiences inspired by centuries of tradition. We combine pure botanicals, expert knowledge, and sustainable practices to support your well-being from the inside out.</p>
+              <p class="section-text">Our offerings are designed to be luxurious, effective, and gentle, honoring the natural cycle of your body and the changing seasons. Every product is made with intention, transparency, and a deep respect for nature’s healing intelligence.</p>
+              <div class="feature-grid">
+                <div class="feature-box">
+                  <i class="bi bi-flower3"></i>
+                  <h3>100% Herbal</h3>
+                </div>
+                <div class="feature-box">
+                  <i class="bi bi-basket3"></i>
+                  <h3>Organic Ingredients</h3>
+                </div>
+                <div class="feature-box">
+                  <i class="bi bi-award"></i>
+                  <h3>Time-Honored Craft</h3>
+                </div>
+                <div class="feature-box">
+                  <i class="bi bi-shield-check"></i>
+                  <h3>Pure Formulations</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+   <section class="section" id="seasonal-routines">
+    <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+            <p class="section-tag">Seasonal Rithucharyas</p>
+            <h2 class="section-title">For Those Who Love Nature and Follow the Seasons</h2>
+            <p class="section-text">
+                SMAA is a private wellness club for individuals who are ready to align their lives with the rhythms of nature through Ayurvedic seasonal routines.
+            </p>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12" data-aos="fade-up">
+                <div class="why-card">
+
+                    <p class="mb-4">
+                        We guide and support people who are willing to follow Rithucharyas as detailed in the Ayur Vedam. These routines are not for everyone—they are for those who embrace the seasons, respect natural rhythms, and wish to nourish themselves with purpose.
+                    </p>
+
+                    <h4><i class="bi bi-calendar3"></i> I. Understanding the Seasons</h4>
+                    <ul>
+                        <li><strong>Shishira (Winter):</strong> Mid-January to Mid-March</li>
+                        <li><strong>Vasanta (Spring):</strong> Mid-March to Mid-May</li>
+                        <li><strong>Grishma (Summer):</strong> Mid-May to Mid-July</li>
+                        <li><strong>Varsha (Monsoon):</strong> Mid-July to Mid-September</li>
+                        <li><strong>Sharad (Autumn):</strong> Mid-September to Mid-November</li>
+                        <li><strong>Hemanta (Pre-Winter):</strong> Mid-November to Mid-January</li>
+                    </ul>
+
+                    <hr>
+
+                    <h4><i class="bi bi-basket3"></i> II. Diet</h4>
+                    <ul>
+                        <li>Eat seasonal foods that are locally available and fresh.</li>
+                        <li>Adjust food qualities to balance the dominant doshas of each season.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h4><i class="bi bi-heart-pulse"></i> III. Lifestyle</h4>
+                    <ul>
+                        <li>Modify daily routines such as sleep, exercise, and relaxation according to the season.</li>
+                        <li>Practice self-care activities that promote physical and mental well-being, including meditation and music.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h4><i class="bi bi-flower3"></i> IV. Herbal Support</h4>
+                    <ul>
+                        <li>Use seasonal herbs and aromas that balance doshas and support overall health.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h4><i class="bi bi-droplet-half"></i> V. Cleansing Treatments</h4>
+                    <ul>
+                        <li>Practice seasonal cleansing and rejuvenation treatments to maintain health and vitality.</li>
+                    </ul>
+
+                    <hr>
+
+                    <p class="mb-0">
+                        By adapting your lifestyle, diet, skincare, and wellness rituals to the changing seasons, you can unlock your natural beauty and radiance. SMAA Beauty Club will support you throughout this journey with customized products and services.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+      <!-- <section class="section" id="values">
+        <div class="container">
+          <div class="section-heading text-center" data-aos="fade-up">
+            <p class="section-tag">Our Commitment</p>
+            <h2 class="section-title">The SMAA Difference</h2>
+            <p class="section-text">We believe wellness is most powerful when it is natural, mindful, and beautifully crafted.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4" data-aos="fade-up">
+              <div class="why-card">
+                <i class="bi bi-globe2"></i>
+                <h3>Ethical Sourcing</h3>
+                <p>We select herbs and botanicals from trusted growers who practice organic cultivation and sustainable harvesting.</p>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="why-card">
+                <i class="bi bi-mortarboard"></i>
+                <h3>Ayurvedic Expertise</h3>
+                <p>Our formulations are inspired by classical Ayurveda and shaped by modern wellness needs for everyday balance.</p>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="why-card">
+                <i class="bi bi-heart-pulse"></i>
+                <h3>Holistic Care</h3>
+                <p>We support body, mind, and spirit with products that feel nurturing, effective, and restorative.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section products-section" id="heritage">
+        <div class="container">
+          <div class="section-heading text-center" data-aos="fade-up">
+            <p class="section-tag">Our Heritage</p>
+            <h2 class="section-title">Why SMAA Was Created</h2>
+            <p class="section-text">From natural healing rituals to luxurious wellness support, our story is about reconnecting modern life with ancient, plant-based care.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Herbal wellness ingredients" loading="lazy" />
+                <div class="product-content">
+                  <h3>Intentional Formulas</h3>
+                  <p>We design each blend to address seasonal rhythms, daily balance, and long-term vitality.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=600&q=80" alt="Calming herbal tea" loading="lazy" />
+                <div class="product-content">
+                  <h3>Nature First</h3>
+                  <p>Every ingredient is chosen for purity, potency, and compatibility with Ayurvedic wellness traditions.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=600&q=80" alt="Ayurvedic wellness studio" loading="lazy" />
+                <div class="product-content">
+                  <h3>Thoughtful Experience</h3>
+                  <p>Wellness should be as nourishing to the senses as it is to the body—that belief guides all we create.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="row g-4 align-items-start">
+            <div class="col-lg-5" data-aos="fade-right">
+              <div class="contact-info-card">
+                <p class="section-tag">Contact Us</p>
+                <h2 class="section-title">Talk with our Wellness Team</h2>
+                <p class="section-text">Whether you have questions about ingredients, seasonal support, or product guidance, we’re here to help.</p>
+                <div class="contact-item">
+                  <i class="bi bi-telephone"></i>
+                  <span>+91 98765 43210</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-envelope"></i>
+                  <span>hello@smaa.com</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>42 Serenity Lane, Kerala, India</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+              <div class="contact-form-card">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" placeholder="Your Name" required />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="email" class="form-control" placeholder="Your Email" required />
+                    </div>
+                    <div class="col-12">
+                      <input type="text" class="form-control" placeholder="Subject" />
+                    </div>
+                    <div class="col-12">
+                      <textarea class="form-control" rows="5" placeholder="Write your message"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <h3>SMAA</h3>
+            <p>Delivering premium herbal wellness with grace, science, and tradition.</p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="index.html#products">Our Products</a></li>
+              <li><a href="index.html#gallery">Gallery</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="index.html#products">Ashwagandha</a></li>
+              <li><a href="index.html#products">Triphala</a></li>
+              <li><a href="index.html#products">Neem Capsules</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Newsletter</h4>
+            <p>Join our wellness list for natural tips and offers.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 SMAA. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+<style>
+    #seasonal-routines .why-card h4 {
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+</style>
+</html>

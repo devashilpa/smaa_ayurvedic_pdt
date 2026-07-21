@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SMAA offers premium Ayurvedic herbs, wellness products, and holistic healing experiences rooted in tradition." />
+    <meta name="keywords" content="Ayurveda, Ayurvedic products, herbal medicine, wellness, organic herbs" />
+    <title>SMAA | Premium Ayurvedic Wellness</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- <div class="loading-screen" id="loadingScreen">
+      <div class="spinner"></div>
+    </div> -->
+
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <div class="floating-actions" aria-label="Quick contact widgets">
+      <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="quick-action whatsapp" aria-label="Contact via WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="sms:+919876543210" class="quick-action message" aria-label="Send a message">
+        <i class="bi bi-chat-dots"></i>
+      </a>
+      <a href="mailto:hello@smaa.com" class="quick-action email" aria-label="Send an email">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+
+    <header class="hero-section" id="home" style="background-image: url('css/img/baner1.jpeg'); cover no-repeat center center; background-size: cover;">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="home">
+            <!-- <span class="brand-mark">S</span> -->
+             <img src="css/img/logo1.png" alt="SMAA Logo" class="brand-logo" width="80" height="50px" />
+            <span>SMAA</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <div class="row align-items-center min-vh-100 py-5">
+          <div class="col-lg-8" data-aos="fade-up">
+            <!-- <p class="eyebrow">Ancient wisdom for modern wellness</p>
+            <h1>Experience the Healing Power of Ayurveda</h1>
+            <p class="hero-subtitle">Discover premium herbal remedies and wellness rituals crafted with nature’s finest ingredients for balance, vitality, and inner peace.</p> -->
+            <div class="hero-buttons">
+              <a class="btn btn-primary" href="product.html">Explore Products</a>
+              <a class="btn btn-secondary" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-element leaf-one"></div>
+      <div class="floating-element leaf-two"></div>
+      <div class="floating-element leaf-three"></div>
+    </header>
+
+    <main>
+      <section class="section products-section" id="products">
+        <div class="container">
+          <div class="section-heading text-center" data-aos="fade-up">
+            <p class="section-tag">Seasonal Wellness Essentials</p>
+            <h2 class="section-title">Seasonal Wellness, Crafted for Every Climate</h2>
+            <p class="section-text">Discover season-wise Ayurvedic formulas created to help your body adapt gracefully with every changing climate.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-2-4 col-md-4 col-sm-6" data-aos="zoom-in">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&q=80" alt="Winter wellness herbal blend" loading="lazy" />
+                <div class="product-content">
+                  <h3>Winter</h3>
+                  <!-- <p>Warming herbs like ginger and cinnamon to support comfort through chilly days.</p> -->
+                  <div class="product-meta">
+                    <a href="winter.html" class="btn btn-sm">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Pre-winter immunity tonic" loading="lazy" />
+                <div class="product-content">
+                  <h3>Pre-Winter </h3>
+                  <!-- <p>Strengthening tulsi and amla support to prepare your body before winter sets in.</p> -->
+                  <div class="product-meta">
+                    <a href="pre-winter.html" class="btn btn-sm">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=600&q=80" alt="Summer cooling herbal tea" loading="lazy" />
+                <div class="product-content">
+                  <h3>Summer</h3>
+                  <!-- <p>Refreshing herbs that help maintain calm balance during hot summer months.</p> -->
+                  <div class="product-meta">
+                    <a href="summer.html" class="btn btn-sm">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=600&q=80" alt="Spring detox herbal formula" loading="lazy" />
+                <div class="product-content">
+                  <h3>Spring </h3>
+                  <!-- <p>Gentle cleansing botanicals for a fresh seasonal reset and renewed energy.</p> -->
+                  <div class="product-meta">
+                    <a href="spring.html" class="btn btn-sm">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="400">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80" alt="Autumn glow herbal tonic" loading="lazy" />
+                <div class="product-content">
+                  <h3>Autumn </h3>
+                  <!-- <p>Nourishing support with grounding herbs for a smooth seasonal transition.</p> -->
+                  <div class="product-meta">
+                    <a href="autumn.html" class="btn btn-sm">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="500">
+              <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=600&q=80" alt="Rainy monsoon herbal wellness preparation" loading="lazy" />
+                <div class="product-content">
+                  <h3>Monsoon </h3>
+                  <!-- <p>Comforting digestive support crafted for the humid, changing monsoon season.</p> -->
+                  <div class="product-meta">
+                    <a href="monsoon.html" class="btn btn-sm">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="container">
+          <div class="section-heading text-center" data-aos="fade-up">
+            <p class="section-tag">Our Sanctuary</p>
+            <h2 class="section-title">A Glimpse into Nature’s Elegance</h2>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-item" data-aos="zoom-in"><a href="#" data-src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80"><img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80" alt="Ayurvedic wellness herbs" loading="lazy" /></a></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100"><a href="#" data-src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80" alt="Natural ingredients arranged beautifully" loading="lazy" /></a></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200"><a href="#" data-src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80" alt="Aromatherapy oils and herbs" loading="lazy" /></a></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300"><a href="#" data-src="https://images.unsplash.com/photo-1469533778471-92a68acc3639?auto=format&fit=crop&w=900&q=80"><img src="https://images.unsplash.com/photo-1469533778471-92a68acc3639?auto=format&fit=crop&w=900&q=80" alt="Wellness tea ceremony" loading="lazy" /></a></div>
+            <div class="gallery-item" data-aos="zoom-in"><a href="#" data-src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80" alt="Herbal ingredients in a serene setting" loading="lazy" /></a></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100"><a href="#" data-src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=80"><img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=80" alt="Organic Ayurvedic preparation" loading="lazy" /></a></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200"><a href="#" data-src="https://images.unsplash.com/photo-1506126279646-a697353d3166?auto=format&fit=crop&w=900&q=80"><img src="https://images.unsplash.com/photo-1506126279646-a697353d3166?auto=format&fit=crop&w=900&q=80" alt="Luxury herbal skincare" loading="lazy" /></a></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300"><a href="#" data-src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"><img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80" alt="View of natural wellness studio" loading="lazy" /></a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section testimonials-section">
+        <div class="container">
+          <div class="section-heading text-center" data-aos="fade-up">
+            <p class="section-tag">Loved By Our Community</p>
+            <h2 class="section-title">What Our Customers Say</h2>
+          </div>
+          <div class="testimonial-slider" data-aos="fade-up">
+            <div class="testimonial-card active">
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p>“The quality and care behind every product is unmistakable. My daily routine feels deeply nourishing and calm.”</p>
+              <h3>Anika Rao</h3>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div>
+              <p>“Elegant, effective, and beautifully crafted. Ayurveda Life has become part of our family wellness ritual.”</p>
+              <h3>Meera Sharma</h3>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p>“The herbal formulations are pure, premium, and truly reflect the spirit of Ayurveda.”</p>
+              <h3>Deepak Verma</h3>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="section why-us-section">
+        <div class="container">
+          <div class="section-heading text-center" data-aos="fade-up">
+            <p class="section-tag">Why Choose Us</p>
+            <h2 class="section-title">A Premium Wellness Experience</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+              <div class="why-card">
+                <i class="bi bi-flower3"></i>
+                <h3>100% Natural</h3>
+                <p>Pure ingredients sourced with integrity and respect for the earth.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="why-card">
+                <i class="bi bi-patch-check"></i>
+                <h3>Certified Products</h3>
+                <p>Every formulation meets strict quality and safety standards.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="why-card">
+                <i class="bi bi-truck"></i>
+                <h3>Fast Delivery</h3>
+                <p>Prompt shipping and careful handling to bring wellness to your door.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="why-card">
+                <i class="bi bi-person-hearts"></i>
+                <h3>Expert Consultation</h3>
+                <p>Personal guidance from specialists who understand holistic healing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="section counter-section">
+        <div class="container">
+          <div class="row g-4 text-center">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+              <div class="counter-card">
+                <h3 class="counter-number" data-target="5000">0</h3>
+                <p>Happy Customers</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-card">
+                <h3 class="counter-number" data-target="120">0</h3>
+                <p>Products</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-card">
+                <h3 class="counter-number" data-target="25">0</h3>
+                <p>Years Experience</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-card">
+                <h3 class="counter-number" data-target="50">0</h3>
+                <p>Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="section cta-section" id="contact">
+        <div class="container">
+          <div class="cta-card" data-aos="fade-up">
+            <h2>Start Your Healthy Journey Today</h2>
+            <p>Experience timeless Ayurvedic care through nature-led remedies and thoughtful guidance.</p>
+            <a class="btn btn-primary" href="#products">Shop Now</a>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="section contact-section">
+        <div class="container">
+          <div class="row g-4 align-items-start">
+            <div class="col-lg-5" data-aos="fade-right">
+              <div class="contact-info-card">
+                <p class="section-tag">Contact Us</p>
+                <h2 class="section-title">We’re Here to Support Your Wellness</h2>
+                <p class="section-text">Reach out for product guidance, consultations, or personalized Ayurvedic wellness recommendations.</p>
+                <div class="contact-item">
+                  <i class="bi bi-telephone"></i>
+                  <span>+91 98765 43210</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-envelope"></i>
+                  <span>hello@smaa.com</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>42 Serenity Lane, Kerala, India</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+              <div class="contact-form-card">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" placeholder="Your Name" required />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="email" class="form-control" placeholder="Your Email" required />
+                    </div>
+                    <div class="col-12">
+                      <input type="text" class="form-control" placeholder="Subject" />
+                    </div>
+                    <div class="col-12">
+                      <textarea class="form-control" rows="5" placeholder="Write your message"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section blog-section">
+        <div class="container">
+          <div class="section-heading text-center" data-aos="fade-up">
+            <p class="section-tag">From Our Journal</p>
+            <h2 class="section-title">Wellness Wisdom &amp; Ayurvedic Insights</h2>
+            <p class="section-text">Explore practical knowledge, seasonal care tips, and nourishing rituals from the world of Ayurveda.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+              <article class="blog-card">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=700&q=80" alt="Ayurvedic wellness blog cover" loading="lazy" />
+                <div class="blog-content">
+                  <p class="blog-meta">Seasonal Care • 5 min read</p>
+                  <h3>How Ayurveda Helps You Thrive Through Every Season</h3>
+                  <p>Discover gentle routines and herbal support designed for winter, summer, and every changing climate.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <article class="blog-card">
+                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80" alt="Natural herbs for wellness" loading="lazy" />
+                <div class="blog-content">
+                  <p class="blog-meta">Herbal Wisdom • 4 min read</p>
+                  <h3>The Power of Daily Herbal Rituals for Mindful Living</h3>
+                  <p>Learn how small, consistent rituals with plant-based nourishment can create lasting balance.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <article class="blog-card">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=700&q=80" alt="Ayurvedic food and wellness lifestyle" loading="lazy" />
+                <div class="blog-content">
+                  <p class="blog-meta">Lifestyle • 6 min read</p>
+                  <h3>Build a Calm, Nourishing Routine with Ayurvedic Principles</h3>
+                  <p>From morning rituals to evening reset, find simple ways to embrace a more centered lifestyle.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+                      <input class="form-control" type="email" name="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="mb-3">
+                      <textarea class="form-control" name="message" rows="3" placeholder="Tell us what you would like to experience"></textarea>
+                    </div>
+                    <button class="btn btn-primary w-100" type="submit">Request Consultation</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <h3>SMAA</h3>
+            <p>Delivering premium herbal wellness with grace, science, and tradition.</p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#products">Our Products</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#products">Ashwagandha</a></li>
+              <li><a href="#products">Triphala</a></li>
+              <li><a href="#products">Neem Capsules</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Newsletter</h4>
+            <p>Join our wellness list for natural tips and offers.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 SMAA. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox">
+      <img id="lightbox-img" src="" alt="Enlarged gallery image" />
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
