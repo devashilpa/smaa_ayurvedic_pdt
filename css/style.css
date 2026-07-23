@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5 {
 .hero-section {
   position: relative;
   min-height: 100vh;
-  background: url("img/baner1.jpeg") center no-repeat ;
+  background:  center no-repeat ;
   overflow: hidden;
 }
 
